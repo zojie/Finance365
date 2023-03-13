@@ -14,6 +14,17 @@
 		1F4C860229BF2BBF00CA7822 /* Finance365Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C860129BF2BBF00CA7822 /* Finance365Tests.swift */; };
 		1F4C860C29BF2BBF00CA7822 /* Finance365UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C860B29BF2BBF00CA7822 /* Finance365UITests.swift */; };
 		1F4C860E29BF2BBF00CA7822 /* Finance365UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C860D29BF2BBF00CA7822 /* Finance365UITestsLaunchTests.swift */; };
+		1F4C861B29BF2C6000CA7822 /* HeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C861A29BF2C6000CA7822 /* HeaderBar.swift */; };
+		1F4C861E29BF2CE600CA7822 /* HomeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C861D29BF2CE600CA7822 /* HomeIndex.swift */; };
+		1F4C862329BF311200CA7822 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C862029BF311200CA7822 /* Lato-Regular.ttf */; };
+		1F4C862429BF311200CA7822 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C862129BF311200CA7822 /* Lato-Italic.ttf */; };
+		1F4C862529BF311200CA7822 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C862229BF311200CA7822 /* Lato-Bold.ttf */; };
+		1F4C862A29BF313A00CA7822 /* PTSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C862729BF313A00CA7822 /* PTSerif-Regular.ttf */; };
+		1F4C862B29BF313A00CA7822 /* PTSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C862829BF313A00CA7822 /* PTSerif-Bold.ttf */; };
+		1F4C862C29BF313A00CA7822 /* PTSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C862929BF313A00CA7822 /* PTSerif-Italic.ttf */; };
+		1F4C863029BF36F500CA7822 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C862F29BF36F500CA7822 /* CardView.swift */; };
+		1F4C863229BF429B00CA7822 /* BudgetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C863129BF429B00CA7822 /* BudgetSummaryView.swift */; };
+		1F4C863429BF538600CA7822 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C863329BF538600CA7822 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,18 @@
 		1F4C860729BF2BBF00CA7822 /* Finance365UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Finance365UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4C860B29BF2BBF00CA7822 /* Finance365UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance365UITests.swift; sourceTree = "<group>"; };
 		1F4C860D29BF2BBF00CA7822 /* Finance365UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance365UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F4C861A29BF2C6000CA7822 /* HeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBar.swift; sourceTree = "<group>"; };
+		1F4C861D29BF2CE600CA7822 /* HomeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeIndex.swift; sourceTree = "<group>"; };
+		1F4C862029BF311200CA7822 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		1F4C862129BF311200CA7822 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		1F4C862229BF311200CA7822 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		1F4C862729BF313A00CA7822 /* PTSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Regular.ttf"; sourceTree = "<group>"; };
+		1F4C862829BF313A00CA7822 /* PTSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Bold.ttf"; sourceTree = "<group>"; };
+		1F4C862929BF313A00CA7822 /* PTSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Italic.ttf"; sourceTree = "<group>"; };
+		1F4C862E29BF321600CA7822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F4C862F29BF36F500CA7822 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1F4C863129BF429B00CA7822 /* BudgetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSummaryView.swift; sourceTree = "<group>"; };
+		1F4C863329BF538600CA7822 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +118,11 @@
 		1F4C85EE29BF2BBE00CA7822 /* Finance365 */ = {
 			isa = PBXGroup;
 			children = (
+				1F4C862E29BF321600CA7822 /* Info.plist */,
+				1F4C861F29BF30CB00CA7822 /* Font */,
 				1F4C85EF29BF2BBE00CA7822 /* Finance365App.swift */,
 				1F4C85F129BF2BBE00CA7822 /* ContentView.swift */,
+				1F4C861C29BF2C6E00CA7822 /* Home */,
 				1F4C85F329BF2BBF00CA7822 /* Assets.xcassets */,
 				1F4C85F529BF2BBF00CA7822 /* Finance365.entitlements */,
 				1F4C85F629BF2BBF00CA7822 /* Preview Content */,
@@ -127,6 +153,47 @@
 				1F4C860D29BF2BBF00CA7822 /* Finance365UITestsLaunchTests.swift */,
 			);
 			path = Finance365UITests;
+			sourceTree = "<group>";
+		};
+		1F4C861C29BF2C6E00CA7822 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C861D29BF2CE600CA7822 /* HomeIndex.swift */,
+				1F4C861A29BF2C6000CA7822 /* HeaderBar.swift */,
+				1F4C862F29BF36F500CA7822 /* CardView.swift */,
+				1F4C863129BF429B00CA7822 /* BudgetSummaryView.swift */,
+				1F4C863329BF538600CA7822 /* ChartView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1F4C861F29BF30CB00CA7822 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C862D29BF314100CA7822 /* PT Serif */,
+				1F4C862629BF312300CA7822 /* Lato */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1F4C862629BF312300CA7822 /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C862229BF311200CA7822 /* Lato-Bold.ttf */,
+				1F4C862129BF311200CA7822 /* Lato-Italic.ttf */,
+				1F4C862029BF311200CA7822 /* Lato-Regular.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		1F4C862D29BF314100CA7822 /* PT Serif */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C862829BF313A00CA7822 /* PTSerif-Bold.ttf */,
+				1F4C862929BF313A00CA7822 /* PTSerif-Italic.ttf */,
+				1F4C862729BF313A00CA7822 /* PTSerif-Regular.ttf */,
+			);
+			path = "PT Serif";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4C85F829BF2BBF00CA7822 /* Preview Assets.xcassets in Resources */,
+				1F4C862529BF311200CA7822 /* Lato-Bold.ttf in Resources */,
+				1F4C862329BF311200CA7822 /* Lato-Regular.ttf in Resources */,
+				1F4C862A29BF313A00CA7822 /* PTSerif-Regular.ttf in Resources */,
+				1F4C862429BF311200CA7822 /* Lato-Italic.ttf in Resources */,
 				1F4C85F429BF2BBF00CA7822 /* Assets.xcassets in Resources */,
+				1F4C862C29BF313A00CA7822 /* PTSerif-Italic.ttf in Resources */,
+				1F4C862B29BF313A00CA7822 /* PTSerif-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4C863229BF429B00CA7822 /* BudgetSummaryView.swift in Sources */,
+				1F4C861B29BF2C6000CA7822 /* HeaderBar.swift in Sources */,
 				1F4C85F229BF2BBE00CA7822 /* ContentView.swift in Sources */,
+				1F4C863429BF538600CA7822 /* ChartView.swift in Sources */,
 				1F4C85F029BF2BBE00CA7822 /* Finance365App.swift in Sources */,
+				1F4C861E29BF2CE600CA7822 /* HomeIndex.swift in Sources */,
+				1F4C863029BF36F500CA7822 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +497,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Finance365/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +536,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Finance365/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
