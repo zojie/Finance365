@@ -7,15 +7,39 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        TabView {
+            
+            HomeIndex()
+                .tabItem {
+                    Image(systemName: "apple.logo")
+                    Text("Home")
+                }
+            
+            AnalysisIndex()
+                .tabItem {
+                    Image(systemName: "chart.pie.fill")
+                    Text("Analysis")
+                }
+            
+            NotificationIndex()
+                .tabItem {
+                    Image(systemName: "bell.fill")
+                    Text("Notification")
+                }
+            
+            SettingsIndex()
+                .tabItem {
+                    Image(systemName: "person.crop.circle.fill")
+                    Text("Settings")
+                }
+            
+            
         }
-        .padding()
     }
 }
 

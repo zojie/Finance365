@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F0238C229C0AA93008B0EC7 /* QuickLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0238C129C0AA93008B0EC7 /* QuickLinkView.swift */; };
+		1F0238C729C0B914008B0EC7 /* AnalysisIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0238C629C0B914008B0EC7 /* AnalysisIndex.swift */; };
+		1F0238C929C0B920008B0EC7 /* NotificationIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0238C829C0B920008B0EC7 /* NotificationIndex.swift */; };
+		1F0238CB29C0B92A008B0EC7 /* SettingsIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0238CA29C0B92A008B0EC7 /* SettingsIndex.swift */; };
 		1F4C85F029BF2BBE00CA7822 /* Finance365App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C85EF29BF2BBE00CA7822 /* Finance365App.swift */; };
 		1F4C85F229BF2BBE00CA7822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C85F129BF2BBE00CA7822 /* ContentView.swift */; };
 		1F4C85F429BF2BBF00CA7822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C85F329BF2BBF00CA7822 /* Assets.xcassets */; };
@@ -47,6 +50,9 @@
 
 /* Begin PBXFileReference section */
 		1F0238C129C0AA93008B0EC7 /* QuickLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinkView.swift; sourceTree = "<group>"; };
+		1F0238C629C0B914008B0EC7 /* AnalysisIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisIndex.swift; sourceTree = "<group>"; };
+		1F0238C829C0B920008B0EC7 /* NotificationIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationIndex.swift; sourceTree = "<group>"; };
+		1F0238CA29C0B92A008B0EC7 /* SettingsIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIndex.swift; sourceTree = "<group>"; };
 		1F4C85EC29BF2BBE00CA7822 /* Finance365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finance365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4C85EF29BF2BBE00CA7822 /* Finance365App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance365App.swift; sourceTree = "<group>"; };
 		1F4C85F129BF2BBE00CA7822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0238C329C0B8D8008B0EC7 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				1F0238C629C0B914008B0EC7 /* AnalysisIndex.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		1F0238C429C0B8E0008B0EC7 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				1F0238C829C0B920008B0EC7 /* NotificationIndex.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		1F0238C529C0B8EC008B0EC7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1F0238CA29C0B92A008B0EC7 /* SettingsIndex.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		1F4C85E329BF2BBE00CA7822 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +155,9 @@
 				1F4C85EF29BF2BBE00CA7822 /* Finance365App.swift */,
 				1F4C85F129BF2BBE00CA7822 /* ContentView.swift */,
 				1F4C861C29BF2C6E00CA7822 /* Home */,
+				1F0238C329C0B8D8008B0EC7 /* Analysis */,
+				1F0238C429C0B8E0008B0EC7 /* Notification */,
+				1F0238C529C0B8EC008B0EC7 /* Settings */,
 				1F4C85F329BF2BBF00CA7822 /* Assets.xcassets */,
 				1F4C85F529BF2BBF00CA7822 /* Finance365.entitlements */,
 				1F4C85F629BF2BBF00CA7822 /* Preview Content */,
@@ -337,12 +370,15 @@
 			files = (
 				1F4C863229BF429B00CA7822 /* BudgetSummaryView.swift in Sources */,
 				1F4C861B29BF2C6000CA7822 /* HeaderBar.swift in Sources */,
+				1F0238C729C0B914008B0EC7 /* AnalysisIndex.swift in Sources */,
 				1F4C85F229BF2BBE00CA7822 /* ContentView.swift in Sources */,
+				1F0238CB29C0B92A008B0EC7 /* SettingsIndex.swift in Sources */,
 				1F4C863429BF538600CA7822 /* ChartView.swift in Sources */,
 				1F0238C229C0AA93008B0EC7 /* QuickLinkView.swift in Sources */,
 				1F4C85F029BF2BBE00CA7822 /* Finance365App.swift in Sources */,
 				1F4C861E29BF2CE600CA7822 /* HomeIndex.swift in Sources */,
 				1F4C863029BF36F500CA7822 /* CardView.swift in Sources */,
+				1F0238C929C0B920008B0EC7 /* NotificationIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
