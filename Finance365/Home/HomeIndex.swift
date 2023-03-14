@@ -15,6 +15,8 @@ struct HomeIndex: View {
                     HeaderBar()
                     CardView()
                     BudgetSummaryView()
+                    ChartView()
+                    QuickLinkView()
                 }
             }
         }

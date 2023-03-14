@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0238C229C0AA93008B0EC7 /* QuickLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0238C129C0AA93008B0EC7 /* QuickLinkView.swift */; };
 		1F4C85F029BF2BBE00CA7822 /* Finance365App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C85EF29BF2BBE00CA7822 /* Finance365App.swift */; };
 		1F4C85F229BF2BBE00CA7822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C85F129BF2BBE00CA7822 /* ContentView.swift */; };
 		1F4C85F429BF2BBF00CA7822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C85F329BF2BBF00CA7822 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F0238C129C0AA93008B0EC7 /* QuickLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinkView.swift; sourceTree = "<group>"; };
 		1F4C85EC29BF2BBE00CA7822 /* Finance365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finance365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4C85EF29BF2BBE00CA7822 /* Finance365App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance365App.swift; sourceTree = "<group>"; };
 		1F4C85F129BF2BBE00CA7822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				1F4C862F29BF36F500CA7822 /* CardView.swift */,
 				1F4C863129BF429B00CA7822 /* BudgetSummaryView.swift */,
 				1F4C863329BF538600CA7822 /* ChartView.swift */,
+				1F0238C129C0AA93008B0EC7 /* QuickLinkView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				1F4C861B29BF2C6000CA7822 /* HeaderBar.swift in Sources */,
 				1F4C85F229BF2BBE00CA7822 /* ContentView.swift in Sources */,
 				1F4C863429BF538600CA7822 /* ChartView.swift in Sources */,
+				1F0238C229C0AA93008B0EC7 /* QuickLinkView.swift in Sources */,
 				1F4C85F029BF2BBE00CA7822 /* Finance365App.swift in Sources */,
 				1F4C861E29BF2CE600CA7822 /* HomeIndex.swift in Sources */,
 				1F4C863029BF36F500CA7822 /* CardView.swift in Sources */,

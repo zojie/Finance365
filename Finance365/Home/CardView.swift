@@ -12,7 +12,6 @@ struct CardView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 CardComponent()
-                CardComponent()
                 AddNewCard()
             }
             .padding()
