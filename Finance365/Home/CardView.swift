@@ -12,6 +12,7 @@ struct CardView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 CardComponent()
+                CardComponent()
                 AddNewCard()
             }
             .padding()
@@ -34,22 +35,28 @@ struct CardComponent: View {
                 VStack(alignment: .leading, spacing: 3.0) {
                     Text("Spending")
                         .font(.custom("Lato-Bold", size: 15))
+                        .tracking(-0.6)
                     Text("Maximum amount")
                         .font(.custom("Lato-Regular", size: 13))
                         .foregroundColor(Color.gray)
+                        .tracking(-0.5)
                 }
                 VStack(alignment: .leading, spacing: 3.0) {
                     HStack {
                         Text("200K")
                             .font(.custom("Lato-Bold", size: 24))
+                            .tracking(-0.6)
                         Text("NGN")
                             .font(.custom("Lato-Regular", size: 12))
                     }
                     HStack {
                         Image(systemName: "arrowtriangle.up.fill")
+                            .font(.system(size: 10))
                         Text("+600")
                             .font(.custom("Lato-Regular", size: 13))
                     }
+                    .foregroundColor(Color(#colorLiteral(red: 0, green: 0.59, blue: 0.47, alpha: 1)))
+                    
                 }
             }
             .padding()
@@ -78,6 +85,7 @@ struct AddNewCard: View {
                     .font(.system(size: 32))
                 Text("Create new goal")
                     .font(.custom("Lato-Regular", size: 13))
+                    .tracking(-0.5)
             }
             
         }

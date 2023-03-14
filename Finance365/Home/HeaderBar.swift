@@ -14,9 +14,11 @@ struct HeaderBar: View {
                 Text("Welcome to your")
                     .font(.custom("Lato-Regular", size: 17))
                     .foregroundColor(Color.gray)
+                    .tracking(-0.68)
                 Text("Personal Finance Manager")
-                    .font(.custom("PTSerif-Regular", size: 24))
+                    .font(.custom("PTSerif-regular", size: 24))
                     .font(.title2)
+                    .tracking(-0.8)
             }
             Spacer()
         }

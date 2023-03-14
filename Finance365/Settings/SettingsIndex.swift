@@ -10,9 +10,8 @@ import SwiftUI
 struct SettingsIndex: View {
     var body: some View {
         
-        ScrollView {
             
-            VStack(spacing: 100.0) {
+            VStack {
                 
                 VStack(spacing: 50.0) {
                     VStack(spacing: 32.0) {
@@ -21,13 +20,15 @@ struct SettingsIndex: View {
                         HStack {
                             VStack(alignment: .leading) {
                                 Text("Good Afternoon")
-                                    .font(.custom("Lato-Regular", size: 16))
+                                    .font(.custom("Lato-Regular", size: 17))
                                     .foregroundColor(Color.gray)
+                                    .tracking(-0.68)
                                 Text("Ehizojie Ihayere")
-                                    .font(.custom("PTSerif-Regular", size: 20))
+                                    .font(.custom("PTSerif-Regular", size: 24))
                                     .font(.title2)
+                                    .tracking(-0.8)
                                 Text("@ehizojie")
-                                    .font(.custom("Lato-Regular", size: 13))
+                                    .font(.custom("Lato-Regular", size: 14))
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
@@ -77,7 +78,8 @@ struct SettingsIndex: View {
                     }
                     
                     
-                    VStack(spacing: 24.0) {
+                    //Settings
+                    VStack(spacing: 32.0) {
                         
                         HStack(spacing: 12.0) {
                             Image(systemName: "person.crop.circle.fill")
@@ -90,6 +92,8 @@ struct SettingsIndex: View {
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(Color.gray)
                         }
                         
                         HStack(spacing: 12.0) {
@@ -103,6 +107,8 @@ struct SettingsIndex: View {
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(Color.gray)
                         }
                         
                         HStack(spacing: 12.0) {
@@ -116,6 +122,8 @@ struct SettingsIndex: View {
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(Color.gray)
                         }
                         
                         HStack(spacing: 12.0) {
@@ -129,6 +137,8 @@ struct SettingsIndex: View {
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(Color.gray)
                         }
                         
                         HStack(spacing: 12.0) {
@@ -142,13 +152,15 @@ struct SettingsIndex: View {
                                     .foregroundColor(Color.gray)
                             }
                             Spacer()
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(Color.gray)
                         }
                     }
                 }
                 
                 Spacer()
                 
-                VStack {
+                VStack(spacing: 4.0) {
                     HStack {
                         Text("Finance365 v1.0")
                             .font(.custom("Lato-Regular", size: 13))
@@ -165,7 +177,6 @@ struct SettingsIndex: View {
                 
             }
             .padding()
-        }
     }
 }
 

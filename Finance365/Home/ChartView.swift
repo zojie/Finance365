@@ -32,7 +32,7 @@ struct ChartView: View {
                         .cornerRadius(4.0)
                 }
             }
-            .frame(height: 250)
+            .frame(height: 220)
             .chartYAxis {
                 AxisMarks(position: .leading)
             }

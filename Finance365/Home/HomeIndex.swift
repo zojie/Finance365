@@ -9,18 +9,15 @@ import SwiftUI
 
 struct HomeIndex: View {
     var body: some View {
-        NavigationView {
-            ScrollView {
+        
                 VStack {
                     HeaderBar()
                     CardView()
                     BudgetSummaryView()
                     ChartView()
 //                    QuickLinkView()
+                    Spacer()
                 }
-            }
-        }
-        .navigationTitle("")
     }
 }
 
