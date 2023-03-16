@@ -22,7 +22,8 @@ struct HeaderBar: View {
             }
             Spacer()
         }
-        .padding()
+        .padding([.top, .leading])
+        
     }
 }
 

@@ -10,14 +10,16 @@ import SwiftUI
 struct HomeIndex: View {
     var body: some View {
         
-                VStack {
-                    HeaderBar()
-                    CardView()
-                    BudgetSummaryView()
-                    ChartView()
-//                    QuickLinkView()
-                    Spacer()
-                }
+        VStack {
+            HeaderBar()
+            ScrollView {
+                CardView()
+                BudgetSummaryView()
+                ChartView()
+//                QuickLinkView()
+            }
+            
+        }
     }
 }
 

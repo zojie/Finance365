@@ -9,7 +9,16 @@ import SwiftUI
 
 struct AnalysisIndex: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+            VStack(spacing: 16.0) {
+                AnalysisHeaderView()
+                
+                ScrollView {
+                    AnalysisQuickView()
+                    ChartsDefault()
+                    CategoriesView()
+                }
+            }
     }
 }
 

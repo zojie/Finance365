@@ -28,13 +28,13 @@ struct ContentView: View {
             
             NotificationIndex()
                 .tabItem {
-                    Image(systemName: "bell.fill")
+                    Image(systemName: "bell")
                     Text("Notification")
                 }
             
             SettingsIndex()
                 .tabItem {
-                    Image(systemName: "person.crop.circle.fill")
+                    Image(systemName: "person.crop.circle")
                     Text("Settings")
                 }
             
