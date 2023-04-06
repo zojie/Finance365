@@ -12,32 +12,40 @@ struct ContentView: View {
     
     var body: some View {
         
-        TabView {
+        NavigationView {
             
-            HomeIndex()
-                .tabItem {
-                    Image(systemName: "apple.logo")
-                    Text("Home")
-                }
-            
-            AnalysisIndex()
-                .tabItem {
-                    Image(systemName: "chart.pie.fill")
-                    Text("Analysis")
-                }
-            
-            NotificationIndex()
-                .tabItem {
-                    Image(systemName: "bell")
-                    Text("Notification")
-                }
-            
-            SettingsIndex()
-                .tabItem {
-                    Image(systemName: "person.crop.circle")
-                    Text("Settings")
-                }
-            
+            TabView {
+                
+                HomeIndex()
+                    .tabItem {
+                        Image(systemName: "chart.bar.fill")
+                        Text("Home")
+                    }
+                
+                AnalysisIndex()
+                    .tabItem {
+                        Image(systemName: "chart.pie.fill")
+                        Text("Analysis")
+                    }
+                
+                NotificationIndex()
+                    .tabItem {
+                        Image(systemName: "bell.fill")
+                        Text("Notification")
+                    }
+                    .badge(2)
+                
+                SettingsIndex()
+                    .tabItem {
+                        Image(systemName: "gearshape")
+                        Text("Setting")
+                    }
+            }
+            .onAppear {
+                let tabBarAppearance = UITabBarAppearance()
+                tabBarAppearance.configureWithOpaqueBackground()
+                UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
+            }
             
         }
     }

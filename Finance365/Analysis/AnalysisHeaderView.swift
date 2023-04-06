@@ -11,7 +11,7 @@ struct AnalysisHeaderView: View {
     var body: some View {
         
         VStack(spacing: 24.0) {
-            
+                        
             HStack {
                 VStack(alignment: .leading) {
                     Text("My month of real finance managing")

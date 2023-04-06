@@ -10,44 +10,72 @@ import SwiftUI
 struct AnalysisQuickView: View {
     var body: some View {
         HStack {
-            VStack(spacing: 10.0){
-                Image(systemName: "paragraphsign")
-                    .font(.system(size: 20))
-                Text("Update \n Finances")
-                    .font(.custom("Lato-Regular", size: 13))
-                    .multilineTextAlignment(.center)
-            }
-            .padding(.horizontal)
-            .frame(maxWidth: .infinity)
-            .frame(height: 104)
-            .background(Color(#colorLiteral(red: 0.9333333373069763, green: 0.9254902005195618, blue: 0.9607843160629272, alpha: 1)))
-            .cornerRadius(8.0)
             
-            VStack(spacing: 10.0){
-                Image(systemName: "moon.stars.fill")
-                    .font(.system(size: 20))
-                Text("Manage \n Categories")
-                    .font(.custom("Lato-Regular", size: 13))
-                    .multilineTextAlignment(.center)
+            Button {
+                //Do something here
+            } label: {
+                NavigationLink(destination: AnalysisIndex()) {
+                    VStack(spacing: 10.0){
+                        Image(systemName: "paragraphsign")
+                            .font(.system(size: 20))
+                        Text("Update \n Finances")
+                            .font(.custom("Lato-Regular", size: 13))
+                            .multilineTextAlignment(.center)
+                    }
+                    .padding(.horizontal)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 104)
+                    .background(.gray)
+                    .cornerRadius(8.0)
+                    .foregroundColor(.white)
+                }
             }
-            .padding()
-            .frame(maxWidth: .infinity)
-            .frame(height: 104)
-            .background(Color(#colorLiteral(red: 0.9333333373069763, green: 0.9254902005195618, blue: 0.9607843160629272, alpha: 1)))
-            .cornerRadius(8.0)
+
             
-            VStack(spacing: 10.0){
-                Image(systemName: "chart.bar.fill")
-                    .font(.system(size: 20))
-                Text("Compare \n Records")
-                    .font(.custom("Lato-Regular", size: 13))
-                    .multilineTextAlignment(.center)
+
+                        
+            Button {
+                //Do something here
+            } label: {
+                NavigationLink(destination: AnalysisIndex()) {
+                    VStack(spacing: 10.0){
+                        Image(systemName: "moon.stars.fill")
+                            .font(.system(size: 20))
+                        Text("Manage \n Categories")
+                            .font(.custom("Lato-Regular", size: 13))
+                            .multilineTextAlignment(.center)
+                    }
+                    .padding(.horizontal)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 104)
+                    .background(.gray)
+                    .cornerRadius(8.0)
+                    .foregroundColor(.white)
+                }
             }
-            .padding(.horizontal)
-            .frame(maxWidth: .infinity)
-            .frame(height: 104)
-            .background(Color(#colorLiteral(red: 0.9333333373069763, green: 0.9254902005195618, blue: 0.9607843160629272, alpha: 1)))
-            .cornerRadius(8.0)
+
+                        
+            Button {
+                //Do something
+            } label: {
+                NavigationLink(destination: AnalysisIndex()) {
+                    VStack(spacing: 10.0){
+                        Image(systemName: "chart.bar.fill")
+                            .font(.system(size: 20))
+                        Text("Compare \n Records")
+                            .font(.custom("Lato-Regular", size: 13))
+                            .multilineTextAlignment(.center)
+                    }
+                    .padding(.horizontal)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 104)
+                    .background(.gray)
+                    .cornerRadius(8.0)
+                    .foregroundColor(.white)
+                }
+            }
+
+            
         }
         .padding(.horizontal)
     }
